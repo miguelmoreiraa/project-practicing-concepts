@@ -1,0 +1,40 @@
+.navBarToDo {
+  max-width: 115rem;
+  height: 12.5rem;
+  flex-shrink: 0;
+
+  background: var(--gray-700);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.wrapper img {
+  width: 1.375rem;
+  height: 2.25rem;
+}
+
+.to {
+  color: var(--blue);
+  font-family: Inter;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.do {
+  color: var(--purple-dark, #5e60ce);
+  font-family: Inter;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
