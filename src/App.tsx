@@ -4,9 +4,9 @@ import styles from "./App.module.css";
 
 import toDoLogo from "./assets/rocket.svg";
 
-function App() {
+export function App() {
   return (
-    <>
+    <div className={styles.container}>
       <header className={styles.navBarToDo}>
         <div className={styles.wrapper}>
           <img src={toDoLogo} />
@@ -17,8 +17,10 @@ function App() {
           </div>
         </div>
       </header>
-    </>
+      <div className={styles.wrapperNewTask}>
+        <textarea name="newTask" placeholder="Adicione uma nova tarefa" />
+        <button onClick={() => console.log("Clicou")}>Criar +</button>
+      </div>
+    </div>
   );
 }
-
-export default App;
