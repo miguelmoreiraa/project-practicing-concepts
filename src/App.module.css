@@ -1,3 +1,9 @@
+.container {
+  max-width: 115rem;
+  height: 64rem;
+  background: var(--gray-600, #1a1a1a);
+}
+
 .navBarToDo {
   max-width: 115rem;
   height: 12.5rem;
@@ -37,4 +43,53 @@
   font-style: normal;
   font-weight: 900;
   line-height: normal;
+}
+
+.wrapperNewTask {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.wrapperNewTask textarea {
+  width: 638px;
+  height: 4rem;
+  resize: none;
+
+  border: 0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--gray-700);
+  background: var(--gray-500);
+
+  color: var(--gray-200);
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.wrapperNewTask button {
+  width: 90px;
+  height: 52px;
+  padding: 1rem;
+
+  border-radius: 0.5rem;
+  background: var(--blue-dark);
+
+  color: var(--gray-100);
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.225rem;
+  border: none;
+  transition: background-color 0.1s;
+
+}
+
+.wrapperNewTask button:hover {
+  background: var(--blue)
 }
