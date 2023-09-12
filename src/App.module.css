@@ -1,7 +1,7 @@
 .container {
   max-width: 115rem;
   height: 64rem;
-  background: var(--gray-600, #1a1a1a);
+  background: var(--gray-600);
 }
 
 .navBarToDo {
@@ -13,6 +13,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .wrapper {
@@ -20,6 +21,7 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+  padding: 70px;
 }
 
 .wrapper img {
@@ -87,9 +89,8 @@
   line-height: 1.225rem;
   border: none;
   transition: background-color 0.1s;
-
 }
 
 .wrapperNewTask button:hover {
-  background: var(--blue)
+  background: var(--blue);
 }

@@ -16,11 +16,13 @@ export function App() {
             <span className={styles.do}>do</span>
           </div>
         </div>
+        <div>
+          <div className={styles.wrapperNewTask}>
+            <textarea name="newTask" placeholder="Adicione uma nova tarefa" />
+            <button onClick={() => console.log("Clicou")}>Criar +</button>
+          </div>
+        </div>
       </header>
-      <div className={styles.wrapperNewTask}>
-        <textarea name="newTask" placeholder="Adicione uma nova tarefa" />
-        <button onClick={() => console.log("Clicou")}>Criar +</button>
-      </div>
     </div>
   );
 }
