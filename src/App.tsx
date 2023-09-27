@@ -3,6 +3,7 @@ import "./global.css";
 import styles from "./App.module.css";
 
 import toDoLogo from "./assets/rocket.svg";
+import clipboard from "./assets/clipboard.svg";
 
 export function App() {
   return (
@@ -23,6 +24,27 @@ export function App() {
           </div>
         </div>
       </header>
+      <br />
+      <br />
+      <div className={styles.teste}>
+        <div className={styles.tasksContainer}>
+          <div className={styles.taskCreated}>
+            Tarefas criadas: <span>0</span>
+          </div>
+          <div className={styles.taskCompleted}>
+            Concluídas: <span>0</span>
+          </div>
+        </div>
+        <div className={styles.content}>
+          <div>
+            <img src={clipboard} />
+          </div>
+          <div>
+            <div>Você ainda não tem tarefas cadastradas</div>
+            <div>Crie tarefas e organize seus itens a fazer</div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
