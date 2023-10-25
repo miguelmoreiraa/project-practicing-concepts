@@ -26,7 +26,7 @@ export function App() {
       </header>
       <br />
       <br />
-      <div className={styles.teste}>
+      {/* <div className={styles.teste}>
         <div className={styles.tasksContainer}>
           <div className={styles.taskCreated}>
             Tarefas criadas: <span>0</span>
@@ -44,6 +44,15 @@ export function App() {
             <div>Crie tarefas e organize seus itens a fazer</div>
           </div>
         </div>
+      </div> */}
+
+      <div className={styles.itemTaskList}>
+        <input type="checkbox" className={styles.checkbok} />
+        <div className={styles.contentList}>
+          Integer urna interdum massa libero auctor neque turpis turpis semper.
+          Duis vel sed fames integer.
+        </div>
+        <div>Lixeira</div>
       </div>
     </div>
   );

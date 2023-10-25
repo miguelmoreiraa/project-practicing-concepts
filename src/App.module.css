@@ -145,3 +145,38 @@
   border-radius: 0.5rem;
   border-top: 1px solid var(--gray-400);
 }
+
+.itemTaskList {
+  width: 736px;
+  height: 72px;
+  display: flex;
+  padding: 1rem;
+  align-items: flex-start;
+  gap: 0.75rem;
+  align-self: stretch;
+  margin: auto;
+
+  border-radius: 0.5rem;
+  border: 1px solid var(--gray-400);
+  background: var(--gray-500);
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+.checkbok {
+  display: flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.20456rem;
+  justify-content: center;
+  align-items: center;
+  color: red;
+}
+
+.contentList {
+  color: var(--gray-100);
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 1.225rem */
+}
